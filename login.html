@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    body {
+        background-color: #ede9e1;
+    }
+
+    .cont {
+        background-color: rgb(226 225 229);
+        height: 465px;
+        width: 30%;
+        margin: 6% 33%;
+    }
+
+    h1.head {
+        padding-top: 51px;
+        margin: 0px 31%;
+    }
+
+    .name {
+        border-color: #80708021;
+        background-color: transparent;
+        height: 45px;
+        width: 78%;
+        margin: 9% 10%;
+        border-radius: 28px;
+        outline: none;
+        text-indent: 13px;
+    }
+
+    .password {
+        border-color: #80708021;
+        background-color: transparent;
+        height: 45px;
+        width: 78%;
+        margin: 0% 10%;
+        border-radius: 28px;
+        outline: none;
+        text-indent: 13px;
+    }
+
+    .car {
+        margin: 20px 42px;
+    }
+
+    span.forgot {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .login {
+        width: 77%;
+        height: 44px;
+        margin: 5px 48px;
+        border-radius: 28px;
+        border-color: #80708021;
+        background-color: #a71b0ef7;
+        color: white;
+    }
+
+    .login:hover {
+        background-color: rgb(226 225 229);
+        color: black;
+        cursor: pointer;
+        border: 2px solid #a71b0ef7;
+    }
+
+    .sig {
+        color: rgb(59, 59, 134);
+    }
+
+    .account {
+        margin: 6% 22%;
+    }
+</style>
+
+<body>
+    <div class="cont">
+        <form action="backend.php">
+            <h1 class="head">SIGN IN</h1>
+            <div>
+                <input class="name" type="text" placeholder="Username">
+            </div>
+            <div>
+                <input class="password" type="text" placeholder="Password">
+            </div>
+            <div class="car">
+                <span class="forgot">Forgot password</span>
+                <a class="sig" href="#"> Signup</a>
+            </div>
+            <button class="login" type="submit" value="login">Login</button>
+            <div class="account">
+                <span>Dont have an account?</span>
+                <a href="index.html">Create one</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
